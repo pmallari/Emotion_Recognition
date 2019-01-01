@@ -16,7 +16,7 @@ As a solution to this distribution, I trained to models which are the 'NeutralMo
 
 The model is trained using TensorFlow-GPU. The validation set is 20% of the original data. The NeutralModel performed a peak accuracy of 80% and the 
 
-![](demo.gif)
+![](src/demo.gif)
 
 ## Getting Started
 
