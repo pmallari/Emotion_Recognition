@@ -14,8 +14,9 @@ Anger - 12.5%
 
 As a solution to this distribution, I trained to models which are the 'NeutralModel' and the 'EmotionModel'. The NeutralModel predicts whether the emotion shown is Neutral or not. If the model proves negative in the NeutralModel, the image is sent to the EmotionModel which predicts the specific emotion. An attempt of dividing the EmotionModel into a 'HappyModel' and a 'FearOrAngerModel' will be tested to check if it performs better. The current model acts as a 'binary -> categorical' sequence. Dividing the EmotionModel will be like having a DecisionTree.
 
-The model is trained using TensorFlow-GPU. The validation set is 20% of the original data. The NeutralModel performed a peak accuracy of 80% and the 
+The model is trained using TensorFlow-GPU. The validation set is 20% of the original data. The NeutralModel performed with a peak validation accuracy of 79%. The EmotionModel performed with a peak validation accuracy of 84%. 
 
+Demo below shows the sample performance of the the past model.
 ![](demo.gif)
 
 ## Getting Started
