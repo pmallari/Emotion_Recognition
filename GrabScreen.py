@@ -27,8 +27,8 @@ def process_img(original_image):
 
 # Import model architecture and model states
 dir_path = os.path.dirname(os.path.realpath(__file__))
-model1 = tf.keras.models.load_model(dir_path + "/model/NeutralModel.model")
-model2 = tf.keras.models.load_model(dir_path + "/model/EmotionModel.model")
+model1 = tf.keras.models.load_model(dir_path + "/models/NeutralModel.model")
+model2 = tf.keras.models.load_model(dir_path + "/models/EmotionModel.model")
 
 # Define a starting emotion
 curr_emotion = "Neutral"
